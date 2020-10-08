@@ -51,6 +51,8 @@ az connectedk8s connect --resource-group $NAME --name $NAME --location $LOCATION
 
 Make sure you have logged into the cluster before executing the final step.
 
+[Instructions](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-enable-arc-enabled-clusters#enable-using-bash-script)
+
 ```bash
 
 az monitor log-analytics workspace create \
